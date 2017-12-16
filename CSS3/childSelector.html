@@ -3,11 +3,14 @@
 <head>
 	<title>Child Selector</title>
 	<style type="text/css">
-		xxx{
+		section > article{
 			color: green;
 			font-size: 24px;
 		}
-		xxx{
+		section>h2{
+			color: green;
+		}
+		section li{
 			color: green;
 		}
 	</style>
@@ -15,6 +18,7 @@
 <body>
 	<h1>child Selector</h1>
 	<section>
+		<h2>Sub heading 1</h2>
 	<div>
 		<article>
 			Article which inside DIV, which is inside Section
@@ -27,8 +31,18 @@
 			Article as a direct child of section
 		</article>
 	</section>
-	<h2>Sub heading</h2>
+
+   <section>
+   	<ul>
+   		<li>Article 1</li>
+   		<li>Article 2</li>
+   		<li>Article 3</li>
+
+   	</ul>
 	
+   </section>
+	<h2>Sub heading2</h2>
+
 
 </body>
 </html>
